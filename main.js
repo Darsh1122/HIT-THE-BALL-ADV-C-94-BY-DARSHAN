@@ -74,6 +74,16 @@ function my_keydown(e)
 		}
 	}
 	
+	function up()
+	{
+		if(ball_y >= 0){
+			ball_y = ball_y - block_image_height;
+			console.log("Block Image Height = "+block_image_height);
+			console.log("Up Key Pressed x ="+ball_x+",y = "+ball_y);
+			canvas.remove(ball_object);
+			new_image();
+		}
+	}
 	function down()
 	{
 		 if(ball_y <= 450){

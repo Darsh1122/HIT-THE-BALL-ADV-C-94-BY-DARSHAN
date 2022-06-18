@@ -3,6 +3,7 @@
     background-position: center;
     background-size:contain;
 	background:url(Grass.jpg);
+	background-clip:url(clap.wav);
 }
 #myCanvas
 {
@@ -18,4 +19,3 @@
 	background-color: aliceblue;
 	font-family: fantasy;
 }
-
